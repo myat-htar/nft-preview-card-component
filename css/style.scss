@@ -18,6 +18,10 @@ body{
     font-size: 18px;
     color: $main-text-color;
     background-color: $main-bg-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
 }
 .card{
     background-color: $card-bg-color;
@@ -29,6 +33,7 @@ body{
     &--img{
         aspect-ratio: 1;
         border-radius: 20px;
+        overflow: hidden;
         a{
             position: relative;
             display: block;
